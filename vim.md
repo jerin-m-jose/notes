@@ -1,6 +1,18 @@
 
 # Vim commands 
 
+> copy file content to clipboard:   
+> :%w !pbcopy   
+> 
+> To copy the current line, in command mode type:     
+> "*yy    
+> 
+> To copy the whole file/buffer, in command mode,     
+> first go to the beginning via gg, then type :   
+> "*yG      
+
+   
+  
 ### for movement
 
 > When using movement commands, you can put a number in front of them to make Vim complete a command multiple times.  
