@@ -1,11 +1,10 @@
 
 # Vim commands 
 
-> ### for movement
+### for movement
 
-When using movement commands, you can put a number in front of them to make Vim complete a command multiple times. 
-
-For example, 5h will move your cursor five spaces to the left, and 90j will put your cursor at the beginning of the 90th line down from where your cursor currently is.
+> When using movement commands, you can put a number in front of them to make Vim complete a command multiple times.  
+> For example, 5h will move your cursor five spaces to the left, and 90j will put your cursor at the beginning of the 90th line down from where your cursor currently is. 
 
 - h - Moves the cursor to the left
 - l - Moves the cursor to the right
@@ -32,14 +31,16 @@ For example, 5h will move your cursor five spaces to the left, and 90j will put 
 
 ### for editing
 
-> Those who use Vim tend to use the term "yank" where most people would use the terms copy and paste. 
-Therefore, the command for copying a word is yw, which stands for yank word, and the command for pasting whatever has been copied is p, meaning put.
-If you look up additional commands in the future, it can be confusing if you don't know what yank and put mean when using Vim.
-You also have two options for how to select text. 
-You can either use commands like dd, which deletes a single line, and yy, which copies a single line, or you can highlight text and then copy it to the unnamed register. 
-The paste commands work the same whether you've highlighted text or used a command to automatically copy it.
-As with movement commands, putting a number in front of the command can increase the number of times a task is completed. 
-For instance, putting a number in front of yy will increase the number of lines copied, so 5yy will copy five lines.
+> Those who use Vim tend to use the term "yank" where most people would use the terms copy and paste.  
+Therefore, the command for copying a word is yw, which stands for yank word, and the command for pasting whatever has been copied is p, meaning put.  
+If you look up additional commands in the future, it can be confusing if you don't know what yank and put mean when using Vim.  
+You also have two options for how to select text.   
+You can either use commands like dd, which deletes a single line, and yy, which copies a single line, or you can highlight text and then copy it to the unnamed register.   
+The paste commands work the same whether you've highlighted text or used a command to automatically copy it.  
+As with movement commands, putting a number in front of the command can increase the number of times a task is completed.   
+For instance, putting a number in front of yy will increase the number of lines copied, so 5yy will copy five lines.  
+> 
+
 
 - yy - Copies a line
 - yw - Copies a word
