@@ -1,6 +1,8 @@
 
 # Vim commands 
 
+### whole file
+
 > copy file content to clipboard:   
 > :%w !pbcopy   
 > 
